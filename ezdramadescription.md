@@ -15,6 +15,8 @@ Lines are tagged by special symbols at the beginning:
 
 `##` means second level div (e.g. Scene 1)
 
+`###` means third level div... (technically the number of nesting levels is not limited)
+
 `$` means new stage direction. NB:  brackets like this `()` are converted to stage directions automatically and do not require any special treatment
 
 `@` means the line contains `<speaker>` appearance (possibly with inner stage direction in brackets). This will create an `<sp>` tag with a `<speaker>` inside it and then it will put all the following unmarked lines in the file inside that `<sp>` as character speech
