@@ -84,7 +84,8 @@ $The end
 
 And then you automatically get a TEI/XML like this:
 
-```<TEI xml:lang="ukr" xmlns="http://www.tei-c.org/ns/1.0">
+```
+<TEI xml:lang="eng" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
