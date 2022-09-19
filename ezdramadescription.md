@@ -11,17 +11,17 @@ EzDrama format is a Markdown-like (or YAML-like) markup language that serves as 
 
 Lines are tagged by special symbols at the beginning:
 
-`@` means the line contains `<speaker>` appearance (possibly with inner stage direction in brackets). This will create an `<sp>` tag with a `<speaker>` inside it and put all the next unmarked line inside that sp as character speech
+`#` means first level div (e.g. Act 1)
+
+`##` means second level div (e.g. Scene 1)
 
 `$` means new stage direction. NB:  brackets like this `()` are converted to stage directions automatically and do not require any special treatment
 
-`#` means first level div
-
-`##` means second level div
+`@` means the line contains `<speaker>` appearance (possibly with inner stage direction in brackets). This will create an `<sp>` tag with a `<speaker>` inside it and then it will put all the following unmarked lines in the file inside that `<sp>` as character speech
 
 any other line without these special symbols will be treated as direct speech of the last encoded speaker (`@`)
 
-`~` means next lines are poetic text (will be encoded in `<l>`-s instead of a `<p>`)
+`~` means all the next lines within this speech are poetic text (will be encoded in `<l>`-s instead of a `<p>`)
 
 ### 2. Metadata
 
