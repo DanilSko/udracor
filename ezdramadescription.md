@@ -1,6 +1,6 @@
 # What is EzDrama
 
-EzDrama format is a Markdown-like (YAML-like) markup language that serves as intermediary between bare txt and TEI/XML that is ready to put on dracor.org
+EzDrama format is a Markdown-like (or YAML-like) markup language that serves as intermediary between bare txt and TEI/XML that is ready to put on dracor.org
 
 [!ezdrama.png](ezdrama.png)
 
