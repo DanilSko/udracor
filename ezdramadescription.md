@@ -11,7 +11,7 @@ EzDrama format is a Markdown-like (or YAML-like) markup language that serves as 
 
 Lines are tagged by special symbols at the beginning:
 
-`@` means the line contains `<speaker>` appearance (possibly with inner stage direction in brackets)
+`@` means the line contains `<speaker>` appearance (possibly with inner stage direction in brackets). This will create an `<sp>` tag with a `<speaker>` inside it and put all the next unmarked line inside that sp as character speech
 
 `$` means new stage direction. NB:  brackets like this `()` are converted to stage directions automatically and do not require any special treatment
 
