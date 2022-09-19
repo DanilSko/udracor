@@ -23,6 +23,8 @@ any other line without these special symbols will be treated as direct speech of
 
 `~` means all the next lines within this speech are poetic text (will be encoded in `<l>`-s instead of a `<p>`)
 
+`^` means this and next untagged lines are all part of the `<castList>` (and will be encoded as `<castItems>`)
+
 ### 2. Metadata
 
 You can also encode some metadata for the header in the same file:
