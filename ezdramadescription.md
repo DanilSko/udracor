@@ -142,6 +142,7 @@ And then you automatically get a TEI/XML like this:
       </div>
     </body>
   </text>
-</TEI>```
+</TEI>
+```
 
 Such markup takes some time to produce manually. But with EzDrama you can just produce it semi-automatically with just a handful of @, $ and linebreaks.
