@@ -2,7 +2,7 @@
 
 EzDrama format is a Markdown-like (or YAML-like) markup language that serves as intermediary between bare txt and TEI/XML that is ready to put on dracor.org
 
-![ezdrama.png](ezdrama.png)
+![ezdrama2.png](ezdrama2.png)
 
 
 ## Syntax:
