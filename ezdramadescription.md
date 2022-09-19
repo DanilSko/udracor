@@ -31,11 +31,11 @@ any other line without these special symbols will be treated as direct speech of
 
 You can also encode some metadata for the header in the same file:
 
-`author:` means the line contains the author of the play
+`@author:` means the line contains the author of the play
 
-`title:` means the line contains the main title of the play 
+`@title:` means the line contains the main title of the play 
 
-`subtitle` means the line contains the subtitle of the play
+`@subtitle` means the line contains the subtitle of the play
 
 ## Example
 
