@@ -7,14 +7,9 @@ EzDrama format is a Markdown-like (or YAML-like) markup language that serves as 
 
 ## Syntax:
 
-Lines are tagged by special symbols at the beginning
+### 1. Play text
 
-
-`author:` means the line contains the author of the play
-
-`title:` means the line contains the main title of the play 
-
-`subtitle` means the line contains the subtitle of the play
+Lines are tagged by special symbols at the beginning:
 
 `@` means the line contains `<speaker>` appearance (possibly with inner stage direction in brackets)
 
@@ -27,6 +22,16 @@ Lines are tagged by special symbols at the beginning
 any other line without these special symbols will be treated as direct speech of the last encoded speaker (`@`)
 
 `~` means next lines are poetic text (will be encoded in `<l>`-s instead of a `<p>`)
+
+### 2. Metadata
+
+You can also encode some metadata for the header in the same file:
+
+`author:` means the line contains the author of the play
+
+`title:` means the line contains the main title of the play 
+
+`subtitle` means the line contains the subtitle of the play
 
 ## Example
 
