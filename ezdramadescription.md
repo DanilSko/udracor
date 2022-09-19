@@ -32,7 +32,8 @@ any other line without these special symbols will be treated as direct speech of
 
 Here is a simple example. Suppose you have a txt like this:
 
-`Ham, a tragedy
+```
+Ham, a tragedy
 By William S
 
 Dramatis Personae
@@ -48,11 +49,12 @@ Scene 2
 Enter Vikings
 Ham. Egg, Spam, Sausage, and Bacon! 
 Vikings (singing). Spam, Spam, Spam, Spam, Spam, Spam, Spam, and Spam`
-The end`
+The end
+```
 
 With EzDrama you encode it like this:
 
-`
+```
 @title Ham 
 @subtitle A tragedy
 @author William S
@@ -73,11 +75,11 @@ Egg, Spam, Sausage, and Bacon!
 @Vikings (singing).
 Spam, Spam, Spam, Spam, Spam, Spam, Spam, and Spam`
 $The end
-`
+```
 
 And then you automatically get a TEI/XML like this:
 
-`<TEI xml:lang="ukr" xmlns="http://www.tei-c.org/ns/1.0">
+```<TEI xml:lang="ukr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -140,6 +142,6 @@ And then you automatically get a TEI/XML like this:
       </div>
     </body>
   </text>
-</TEI>`
+</TEI>```
 
 Such markup takes some time to produce manually. But with EzDrama you can just produce it semi-automatically with just a handful of @, $ and linebreaks.
