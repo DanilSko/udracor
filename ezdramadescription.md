@@ -35,12 +35,10 @@ Here is a simple example. Suppose you have a txt like this:
 ```
 Ham, a tragedy
 By William S
-
 Dramatis Personae
 Ham
 Eggs
 Vikings
-
 Act 1
 Scene 1
 Ham. Lovely Spam! 
