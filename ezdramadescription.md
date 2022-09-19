@@ -110,7 +110,7 @@ And then you automatically get a TEI/XML like this:
   <text>
     <body>
       <castList>
-        <руфв>Dramatis Personae</castItem>
+        <head>Dramatis Personae</head>
         <castItem>Ham</castItem>
         <castItem>Eggs</castItem>
         <castItem>Vikings</castItem>
