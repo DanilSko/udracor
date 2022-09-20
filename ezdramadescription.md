@@ -50,12 +50,12 @@ Egg
 Vikings
 Act 1
 Scene 1
-Ham. Lovely Spam! 
-Egg. Wonderful Spam!
+Ham: Lovely Spam! 
+Egg: Wonderful Spam!
 Scene 2
 Enter Vikings
-Ham. Egg, Spam, Sausage, and Bacon! 
-Vikings (singing). Spam, Spam, Spam, Spam, Spam, Spam, Spam, and Spam
+Ham: Egg, Spam, Sausage, and Bacon! 
+Vikings (singing): Spam, Spam, Spam, Spam, Spam, Spam, Spam, and Spam
 The end
 ```
 
@@ -73,13 +73,13 @@ Vikings
 ##Scene 1
 @Ham. 
 Lovely Spam! 
-@Egg. 
+@Egg: 
 Wonderful Spam!
 ##Scene 2
 $Enter Vikings
-@Ham. 
+@Ham: 
 Egg, Spam, Sausage, and Bacon! 
-@Vikings (singing).
+@Vikings (singing):
 Spam, Spam, Spam, Spam, Spam, Spam, Spam, and Spam
 $The end
 ```
