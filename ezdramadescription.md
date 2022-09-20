@@ -55,7 +55,7 @@ Eggs. Wonderful Spam!
 Scene 2
 Enter Vikings
 Ham. Egg, Spam, Sausage, and Bacon! 
-Vikings (singing). Spam, Spam, Spam, Spam, Spam, Spam, Spam, and Spam`
+Vikings (singing). Spam, Spam, Spam, Spam, Spam, Spam, Spam, and Spam
 The end
 ```
 
@@ -80,7 +80,7 @@ $Enter Vikings
 @Ham. 
 Egg, Spam, Sausage, and Bacon! 
 @Vikings (singing).
-Spam, Spam, Spam, Spam, Spam, Spam, Spam, and Spam`
+Spam, Spam, Spam, Spam, Spam, Spam, Spam, and Spam
 $The end
 ```
 
@@ -153,4 +153,4 @@ And then you automatically get a TEI/XML like this:
 </TEI>
 ```
 
-Such markup takes some time to produce manually. But with EzDrama you can just produce it semi-automatically with just a handful of @, $ and linebreaks.
+Such markup takes some time to produce manually. But with EzDrama you can just produce it semi-automatically with just a handful of #-s, @-s, $-s and linebreaks.
