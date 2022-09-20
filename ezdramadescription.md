@@ -5,6 +5,10 @@ EzDrama format is a Markdown-like (or YAML-like) markup language that serves as 
 ![ezdrama2.png](ezdrama2.png)
 
 
+## Motivation:
+
+Plain text plays are usually not uniform enough to converted to TEI fully automatically. With EzDrama you can manually (or semi-automatically, with simple replaces and regex) add some uniformity without bothering with heavy-weight XML markup. See Example below. 
+
 ## Syntax:
 
 ### 1. Play text
