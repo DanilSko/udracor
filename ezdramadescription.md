@@ -23,6 +23,8 @@ Lines are tagged by special symbols at the beginning:
 
 any other line without these special symbols will be treated as direct speech of the last encoded speaker (`@`)
 
+NB: dots, colons and such punctuation marks coming right after the <speaker> name will be stripped automatically. So `@Hamlet.` or `@Hamlet:` will сonvert to `<sp who="hamlet"><speaker>Hamlet</speaker> ... </sp>`
+
 `~` means this and next untagged lines within this speech are poetic text (will be encoded in `<l>`-s instead of a `<p>`)
 
 `^` means this and next untagged lines are all part of the `<castList>` (and will be encoded as `<castItems>`)
