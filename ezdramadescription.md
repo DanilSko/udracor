@@ -27,7 +27,7 @@ Lines are tagged by special symbols at the beginning:
 
 any other line without these special symbols will be treated as direct speech of the last encoded speaker (`@`)
 
-NB: dots, colons and such punctuation marks coming right after the <speaker> name will be stripped automatically. So `@Hamlet.` or `@Hamlet:` will сonvert to `<sp who="hamlet"><speaker>Hamlet</speaker> ... </sp>`
+NB: dots, colons and such punctuation marks coming right after the <speaker> name will be stripped from the id reference in the `who` attribute automatically. So `@Hamlet.` will сonvert to `<sp who="hamlet"><speaker>Hamlet.</speaker> ... </sp>`
 
 `~` means this and next untagged lines within this speech are poetic text (will be encoded in `<l>`-s instead of a `<p>`)
 
@@ -135,7 +135,7 @@ And then you automatically get a TEI/XML like this:
             <p>Lovely Spam! </p>
           </sp>
           <sp who="#egg">
-            <speaker>Egg.</speaker>
+            <speaker>Egg:</speaker>
             <p>Wonderful Spam!</p>
           </sp>
         </div>
@@ -143,12 +143,12 @@ And then you automatically get a TEI/XML like this:
           <head>Scene 2</head>
           <stage>Enter Vikings</stage>
           <sp who="#ham">
-            <speaker>Ham.</speaker>
+            <speaker>Ham:</speaker>
             <p>Egg, Spam, Sausage, and Bacon! </p>
           </sp>
           <sp who="#vikings">
             <speaker>Vikings</speaker>
-            <stage>(singing).</stage>
+            <stage>(singing):</stage>
             <p>Spam, Spam, Spam, Spam, Spam, Spam, Spam, and Spam</p>
           </sp>
           <stage>The end</stage>
