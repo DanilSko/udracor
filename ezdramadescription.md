@@ -46,12 +46,12 @@ Ham, a tragedy
 By William S
 Dramatis Personae
 Ham
-Eggs
+Egg
 Vikings
 Act 1
 Scene 1
 Ham. Lovely Spam! 
-Eggs. Wonderful Spam!
+Egg. Wonderful Spam!
 Scene 2
 Enter Vikings
 Ham. Egg, Spam, Sausage, and Bacon! 
@@ -67,13 +67,13 @@ With EzDrama you encode it like this:
 @author William S
 ^Dramatis Personae
 Ham
-Eggs
+Egg
 Vikings
 #Act 1
 ##Scene 1
 @Ham. 
 Lovely Spam! 
-@Eggs. 
+@Egg. 
 Wonderful Spam!
 ##Scene 2
 $Enter Vikings
@@ -99,8 +99,8 @@ And then you automatically get a TEI/XML like this:
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="eggs">
-            <persName>Eggs</persName>
+          <person xml:id="egg">
+            <persName>Egg</persName>
           </person>
           <person xml:id="vikings">
             <persName>Vikings</persName>
@@ -117,7 +117,7 @@ And then you automatically get a TEI/XML like this:
       <castList>
         <head>Dramatis Personae</head>
         <castItem>Ham</castItem>
-        <castItem>Eggs</castItem>
+        <castItem>Egg</castItem>
         <castItem>Vikings</castItem>
       </castList>
       <div type="act">
@@ -128,8 +128,8 @@ And then you automatically get a TEI/XML like this:
             <speaker>Ham.</speaker>
             <p>Lovely Spam! </p>
           </sp>
-          <sp who="#eggs">
-            <speaker>Eggs.</speaker>
+          <sp who="#egg">
+            <speaker>Egg.</speaker>
             <p>Wonderful Spam!</p>
           </sp>
         </div>
@@ -153,4 +153,4 @@ And then you automatically get a TEI/XML like this:
 </TEI>
 ```
 
-Such markup takes some time to produce manually. But with EzDrama you can just produce it semi-automatically with just a handful of #-s, @-s, $-s and linebreaks.
+Such markup takes some time to produce manually. But with EzDrama you can just produce it semi-automatically with just a handful of `#`-s, `@`-s, `$`-s and linebreaks.
