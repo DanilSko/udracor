@@ -73,7 +73,7 @@ Egg
 Vikings
 #Act 1
 ##Scene 1
-@Ham. 
+@Ham: 
 Lovely Spam! 
 @Egg: 
 Wonderful Spam!
