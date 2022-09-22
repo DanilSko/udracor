@@ -131,7 +131,7 @@ And then you automatically get a TEI/XML like this:
         <div type="scene">
           <head>Scene 1</head>
           <sp who="#ham">
-            <speaker>Ham.</speaker>
+            <speaker>Ham:</speaker>
             <p>Lovely Spam! </p>
           </sp>
           <sp who="#egg">
