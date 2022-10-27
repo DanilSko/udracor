@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Ham</title>
+        <title type="sub">A tragedy</title>
+        <author> William S</author>
+      </titleStmt>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="ham:">
+            <persName>Ham:</persName>
+          </person>
+          <person xml:id="egg:">
+            <persName>Egg:</persName>
+          </person>
+          <person xml:id="vikings">
+            <persName>Vikings</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body level="0">
+      <castList>
+        <castItem>Dramatis Personae</castItem>
+        <castItem>Ham</castItem>
+        <castItem>Egg</castItem>
+        <castItem>Vikings</castItem>
+        <castItem></castItem>
+      </castList>
+      <div type="act">
+        <head>Act 1</head>
+        <div type="scene">
+          <head>Scene 1</head>
+          <sp who="#ham:">
+            <speaker>Ham:</speaker>
+            <p>Lovely Spam! </p>
+          </sp>
+          <sp who="#egg:">
+            <speaker>Egg:</speaker>
+            <p>Wonderful Spam!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Scene 2</head>
+          <stage>Enter Vikings</stage>
+          <sp who="#ham:">
+            <speaker>Ham:</speaker>
+            <p>Egg, Spam, Sausage, and Bacon! </p>
+          </sp>
+          <sp who="#vikings">
+            <speaker>Vikings </speaker>
+            <stage>(singing):</stage>
+            <p>Spam, Spam, <stage>(o!)</stage> Spam, Spam, <stage>(loud)</stage> Spam, Spam, <stage>(quiet)</stage> Spam, and Spam</p>
+          </sp>
+          <stage>The end</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
