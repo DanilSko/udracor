@@ -6,18 +6,37 @@
         <title type="sub">A tragedy</title>
         <author> William S</author>
       </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>ENTER SOURCE NAME HERE</name>
+          <idno type="URL">ENTER SOURCE URL HERE</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+        </bibl>
+      </sourceDesc>
     </fileDesc>
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ham:">
-            <persName>Ham:</persName>
+          <person xml:id="vikings">
+            <persName>Vikings</persName>
           </person>
           <person xml:id="egg:">
             <persName>Egg:</persName>
           </person>
-          <person xml:id="vikings">
-            <persName>Vikings</persName>
+          <person xml:id="ham:">
+            <persName>Ham:</persName>
           </person>
         </listPerson>
       </particDesc>
