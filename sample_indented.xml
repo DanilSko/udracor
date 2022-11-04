@@ -29,42 +29,21 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="ham">
-            <persName>Ham:</persName>
-          </person>
-          <person xml:id="vikings (singing)">
-            <persName>Vikings (singing):</persName>
+          <person xml:id="vikings">
+            <persName>Vikings:</persName>
           </person>
           <person xml:id="egg">
             <persName>Egg:</persName>
           </person>
+          <person xml:id="ham">
+            <persName>Ham:</persName>
+          </person>
         </listPerson>
       </particDesc>
     </profileDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2022-11-01">DESCRIBE CHANGE</change>
-      </listChange>
-    </revisionDesc>
   </teiHeader>
-  <standOff>
-    <listEvent>
-      <event type="print" when="2022-11-01">
-        <desc/>
-      </event>
-      <event type="premiere" when="2022-11-01">
-        <desc/>
-      </event>
-      <event type="written" when="2022-11-01">
-        <label>INSERT</label>
-      </event>
-    </listEvent>
-    <listRelation>
-      <relation active="INSERT" name="wikidata" passive="INSERT"/>
-    </listRelation>
-  </standOff>
   <text>
-    <front>
+    <body>
       <castList>
         <head>Dramatis Personae</head>
         <castItem>Ham</castItem>
@@ -72,21 +51,17 @@
         <castItem>Vikings</castItem>
         <castItem></castItem>
       </castList>
-    </front>
-    <body>
       <div type="act">
         <head>Act 1</head>
         <div type="scene">
           <head>Scene 1</head>
           <sp who="#ham">
             <speaker>Ham:</speaker>
-            <l>Lovely Spam! </l>
-            <l></l>
+            <p>Lovely Spam! </p>
           </sp>
           <sp who="#egg">
             <speaker>Egg:</speaker>
-            <l>Wonderful Spam!</l>
-            <l></l>
+            <p>Wonderful Spam!</p>
           </sp>
         </div>
         <div type="scene">
@@ -94,13 +69,12 @@
           <stage>Enter Vikings</stage>
           <sp who="#ham">
             <speaker>Ham:</speaker>
-            <l>Egg, Spam, Sausage, and Bacon! </l>
-            <l></l>
+            <p>Egg, Spam, Sausage, and Bacon! </p>
           </sp>
-          <sp who="#vikings (singing)">
-            <speaker>Vikings (singing):</speaker>
-            <l>Spam, Spam,(o!) Spam, Spam, (loud) Spam, Spam, (quiet) Spam, and Spam</l>
-            <l></l>
+          <sp who="#vikings">
+            <speaker>Vikings:</speaker>
+            <stage>(singing)</stage>
+            <p>Spam, Spam, <stage>(o!)</stage> Spam, Spam, <stage>(loud)</stage> Spam, Spam, <stage>(quiet)</stage> Spam, and Spam</p>
           </sp>
           <stage>The end</stage>
         </div>
