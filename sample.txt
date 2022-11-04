@@ -13,6 +13,7 @@ Lovely Spam!
 Wonderful Spam!
 ##Scene 2
 $Enter Vikings
+(muttering)
 @Ham: 
 Egg, Spam, Sausage, and Bacon! 
 @Vikings (singing):
