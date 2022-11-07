@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xml:id="insert_dracor_id" xml:lang="insert_lang_code" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -30,20 +30,20 @@
       <particDesc>
         <listPerson>
           <person xml:id="ham">
-            <persName>Ham:</persName>
-          </person>
-          <person xml:id="vikings">
-            <persName>Vikings:</persName>
+            <persName>Ham</persName>
           </person>
           <person xml:id="egg">
-            <persName>Egg:</persName>
+            <persName>Egg</persName>
+          </person>
+          <person xml:id="vikings">
+            <persName>Vikings</persName>
           </person>
         </listPerson>
       </particDesc>
     </profileDesc>
     <revisionDesc>
       <listChange>
-        <change when="2022-11-04">DESCRIBE CHANGE</change>
+        <change when="2022-11-07">DESCRIBE CHANGE</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -70,7 +70,6 @@
         <castItem>Ham</castItem>
         <castItem>Egg</castItem>
         <castItem>Vikings</castItem>
-        <castItem></castItem>
       </castList>
       <div type="act">
         <head>Act 1</head>
